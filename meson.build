@@ -23,22 +23,22 @@ endif
 
 plugins = {
   'bluedream': {
-    'gui': true,
-    'ladspa': true
+    'gui': false,
+    'ladspa': false
   }, 'deadgate': {
-    'ladspa': true
+    'ladspa': false
   }, 'distruction': {
-    'gui': true,
-    'ladspa': true
+    'gui': false,
+    'ladspa': false
   }, 'fuzz': {
-    'gui': true,
-    'ladspa': true
+    'gui': false,
+    'ladspa': false
   }, 'octaver': {
-    'ladspa': true
+    'ladspa': false
   }, 'single2humbucker': {
-    'ladspa': true
+    'ladspa': false
   }, 'tubeamp': {
-    'gui': true,
+    'gui': false,
     'lv2src': ['kpp_tubeamp.cpp'],
     'libs': ['zita-convolver', 'zita-resampler']
   },
