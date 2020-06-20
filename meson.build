@@ -22,22 +22,7 @@ if not lv2.found() and not ladspa
 endif
 
 plugins = {
-  'bluedream': {
-    'gui': false,
-    'ladspa': false
-  }, 'deadgate': {
-    'ladspa': false
-  }, 'distruction': {
-    'gui': false,
-    'ladspa': false
-  }, 'fuzz': {
-    'gui': false,
-    'ladspa': false
-  }, 'octaver': {
-    'ladspa': false
-  }, 'single2humbucker': {
-    'ladspa': false
-  }, 'tubeamp': {
+   'tubeamp': {
     'gui': false,
     'lv2src': ['kpp_tubeamp.cpp'],
     'libs': ['zita-convolver', 'zita-resampler']
